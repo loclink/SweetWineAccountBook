@@ -1,8 +1,13 @@
 {
   "pages": [
     {
-      "path": "pages/index/index",
-      "style": {}
+      "path": "pages/details/index"
+    },
+    {
+      "path": "pages/plus/index"
+    },
+    {
+      "path": "pages/bill/index"
     }
   ],
   "globalStyle": {
@@ -12,6 +17,28 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
-    "list": []
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "list": [
+      {
+        "text": "明细",
+        "pagePath": "pages/details/index",
+        "iconPath": "static/images/tabbar/details.png",
+        "selectedIconPath": "static/images/tabbar/details.png"
+      },
+      {
+        "text": "记账",
+        "pagePath": "pages/plus/index",
+        "iconPath": "static/images/tabbar/plus.png",
+        "selectedIconPath": "static/images/tabbar/plus.png"
+      },
+      {
+        "text": "账单",
+        "pagePath": "pages/bill/index",
+        "iconPath": "static/images/tabbar/bill.png",
+        "selectedIconPath": "static/images/tabbar/bill.png"
+      }
+    ]
   }
 }
